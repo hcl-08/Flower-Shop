@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ទាក់ទងយើង</title>
+    <style>
+      body {
+        font-family: "Khmer OS Battambang", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff5f5;
+      }
+      header {
+        background-color: #ffb6c1;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        margin: 0;
+        color: #d63384;
+        font-size: 28px;
+      }
+      nav {
+        margin-top: 15px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #4a4a4a;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #d63384;
+      }
+
+      .contact-container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      }
+      .contact-container h2 {
+        color: #d63384;
+        margin-top: 0;
+      }
+      .info {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.8;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #4a4a4a;
+      }
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-family: inherit;
+      }
+      .form-group input:focus,
+      .form-group textarea:focus {
+        border-color: #d63384;
+        outline: none;
+      }
+      .submit-btn {
+        background-color: #d63384;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 100%;
+        font-size: 16px;
+        transition: 0.3s;
+      }
+      .submit-btn:hover {
+        background-color: #c2185b;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Chhilang Flower Shop</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Flower Type</a>
+        <a href="contact.html" style="color: #d63384">Contact Us</a>
+      </nav>
+    </header>
+
+    <div class="contact-container">
+      <h2>ទំនាក់ទំនងមកយើងខ្ញុំ</h2>
+      <div class="info">
+        📍 <b>អាសយដ្ឋាន:</b> ភូមិពុកយុក, សង្កាត់ស្រយ៉ូវ,​ ក្រុងស្ទឹងសែន,
+        ខេត្តកំពង់ធំ
+        <br />
+        📞 <b>លេខទូរស័ព្ទ:</b> 012 345 678 / 098 765 432<br />
+        📧 <b>អ៊ីមែល:</b>chhilangflowershop@gmail.com
+      </div>
+      <hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 20px" />
+
+      <form action="#">
+        <div class="form-group">
+          <label for="name">ឈ្មោះរបស់អ្នក:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="វាយឈ្មោះនៅទីនេះ..."
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">អ៊ីមែល:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">សារ ឬសំណួររបស់អ្នក:</label>
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="សរសេរសាររបស់អ្នកនៅទីនេះ..."
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn">ផ្ញើសារ</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; Chhilang Flower Shop រក្សាសិទ្ធិគ្រប់យ៉ាង。</p>
+    </footer>
+  </body>
+</html>
